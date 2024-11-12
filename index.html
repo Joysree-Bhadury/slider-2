@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+
+</head>
+<body>
+    
+
+
+
+    <div class="bxslider">
+        <div><img src="https://picsum.photos/id/201/600/350" title="Coffee 1" /></div>
+        <div><img src="https://picsum.photos/id/202/600/350" title="Coffee 2" /></div>
+        <div><img src="https://picsum.photos/id/203/600/350" title="Coffee 3" /></div>
+        <div><img src="https://picsum.photos/id/204/600/350" title="Coffee 4" /></div>
+        <div><img src="https://picsum.photos/id/211/600/350" title="Coffee 5" /></div>
+        <div><img src="https://picsum.photos/id/206/600/350" title="Coffee 6" /></div>
+      </div>
+
+
+
+    <script>
+       $(function(){
+    $('.bxslider').bxSlider({
+      mode: 'horizontal',
+      captions: false,
+      slideWidth: 600,
+      auto: true,
+      pager: true,
+      controls: false,
+      keyboardEnabled: true,
+      pause: 1000,
+      pagerType: 'short'
+      
+
+      
+    });
+  });
+      </script>
+
+</body>
+</html>
+
+
+
+
